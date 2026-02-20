@@ -23,7 +23,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onAccessTrailClick }) => {
                             Acessar Trilha
                         </button>
                     </div>
-                    <p className="text-sm text-gray-400 mt-4 animate-fade-in-up" style={{ animationDelay: '0.8s' }}>Inscrições até 29 de agosto</p>
+                    <p className="text-sm text-gray-400 mt-4 animate-fade-in-up" style={{ animationDelay: '0.8s' }}></p>
                 </div>
             </div>
         </section>
