@@ -5,8 +5,8 @@ interface TrailModalProps {
   onClose: () => void;
 }
 
-const MENTOR_URL = 'https://academy.institutojoule.org/cursos/mentor-kpmg-talentos';
-const MENTEE_URL = 'https://academy.institutojoule.org/cursos/trilha-conecta/';
+const MENTOR_URL = 'https://academy.institutojoule.org/cursos/mentora-kpmg-talentos';
+const MENTEE_URL = 'https://academy.institutojoule.org/cursos/mentorada-kpmg-talentos/';
 
 const TrailModal: React.FC<TrailModalProps> = ({ isOpen, onClose }) => {
   const [selectedRole, setSelectedRole] = useState<'mentor' | 'mentee' | null>(null);
