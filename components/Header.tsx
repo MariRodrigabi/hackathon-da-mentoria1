@@ -23,7 +23,7 @@ const Header: React.FC<HeaderProps> = ({ onAccessTrailClick }) => {
                 
                 <nav className="hidden md:flex items-center space-x-8">
                     {navLinks.map((link) => (
-                        <a key={link.name} href={link.href} className="text-gray-300 hover:text-white transition-colors duration-300 font-medium">
+                        <a key={link.name} href={link.href} className="text-[#00338D] hover:text-blue-500 transition-colors duration-300 font-medium">
                             {link.name}
                         </a>
                     ))}

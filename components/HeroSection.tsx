@@ -1,4 +1,5 @@
 import React from 'react';
+import heroImage from "/assets/mentoria.png";
 
 interface HeroSectionProps {
     onAccessTrailClick: () => void;
@@ -6,7 +7,7 @@ interface HeroSectionProps {
 
 const HeroSection: React.FC<HeroSectionProps> = ({ onAccessTrailClick }) => {
     return (
-        <section className="relative overflow-hidden bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=2084&auto=format&fit=crop')" }}>
+        <section className="relative overflow-hidden bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }}>
             <div className="absolute inset-0 bg-gradient-to-r from-[#0f003b] via-[#0f003b]/80 to-transparent"></div>
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
             
