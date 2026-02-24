@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-
-const LOGO_URL = 'https://i.postimg.cc/50nPY9QJ/2024-KPMG-Hackathon-da-Mentoria-1080-x-1080-px.png';
+import logo from "/assets/kpmg-logo.png";
 
 interface HeaderProps {
     onAccessTrailClick: () => void;
@@ -19,7 +18,7 @@ const Header: React.FC<HeaderProps> = ({ onAccessTrailClick }) => {
         <header className="bg-[#0f003b]/80 backdrop-blur-sm sticky top-0 z-50">
             <div className="container mx-auto px-6 py-4 flex justify-between items-center">
                 <div className="flex items-center">
-                    <img src={LOGO_URL} alt="Hackathon da Mentoria Logo" className="h-10 w-auto" />
+                    <img src = {logo} alt="KPMG Logo" className="h-10 w-auto" />
                 </div>
                 
                 <nav className="hidden md:flex items-center space-x-8">
@@ -61,3 +60,4 @@ const Header: React.FC<HeaderProps> = ({ onAccessTrailClick }) => {
 };
 
 export default Header;
+
