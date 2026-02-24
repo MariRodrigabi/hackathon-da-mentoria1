@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = ({ onAccessTrailClick }) => {
     ];
 
     return (
-        <header className="bg-[#0f003b]/80 backdrop-blur-sm sticky top-0 z-50">
+        <header className="bg-[#00338D]/90 backdrop-blur-md sticky top-0 z-50">
             <div className="container mx-auto px-6 py-4 flex justify-between items-center">
                 <div className="flex items-center">
                     <img src = {logo} alt="KPMG Logo" className="h-10 w-auto" />
