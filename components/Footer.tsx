@@ -1,6 +1,5 @@
 import React from 'react';
-
-const LOGO_URL = 'https://i.postimg.cc/50nPY9QJ/2024-KPMG-Hackathon-da-Mentoria-1080-x-1080-px.png';
+import logo from "/assets/kpmg-logo.png";
 
 interface FooterProps {
     onAccessTrailClick: () => void;
@@ -19,11 +18,11 @@ const Footer: React.FC<FooterProps> = ({ onAccessTrailClick }) => {
                         </button>
                     </div>
                 </div>
-                <div className="border-t border-blue-900/50 pt-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+                <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
                     <div className="flex items-center mb-6 md:mb-0">
-                        <img src={LOGO_URL} alt="Hackathon da Mentoria Logo" className="h-12 w-auto" />
+                        <img src={logo} alt="KPMG Logo" className="h-8 w-auto mr-3" />
                     </div>
-                    <p className="text-gray-500 text-sm">
+                    <p className="text-white text-sm">
                         &copy; {new Date().getFullYear()} KPMG & Instituto Joule. Todos os direitos reservados.
                     </p>
                 </div>
