@@ -24,11 +24,6 @@ const ImpactReports: React.FC = () => {
                         </div>
                     ))}
                 </div>
-                <div className="text-center mt-16 animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
-                    <a href="#" className="text-blue-400 hover:text-blue-300 font-bold transition-colors">
-                        Ver Todos os Relatórios &rarr;
-                    </a>
-                </div>
             </div>
         </section>
     );
