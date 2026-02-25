@@ -11,7 +11,7 @@ const ContentTrack: React.FC<ContentTrackProps> = ({ onAccessTrailClick }) => {
                 <div className="animate-fade-in-up">
                     <h2 className="text-3xl md:text-4xl font-black text-white">Trilha de Conteúdos da Mentoria</h2>
                     <p className="text-lg text-gray-400 mt-4 max-w-3xl mx-auto">
-                        Acesse uma biblioteca exclusiva de materiais didáticos, workshops e recursos para aprimorar suas habilidades em liderança, inovação, carreira e soft skills, desenvolvidos por especialistas da KPMG.
+                        Acesse uma biblioteca exclusiva de materiais didáticos, workshops e recursos para aprimorar suas habilidades e acelerar seu desenvolvimento profissional. Tudo isso para garantir que você esteja preparado para os desafios do mercado de trabalho.
                     </p>
                 </div>
                 <div className="mt-10 flex justify-center animate-fade-in-up" style={{ animationDelay: '0.3s' }}>

@@ -8,10 +8,9 @@ const WelcomeVideo: React.FC = () => {
         <section className="py-16 md:py-24 bg-[#0f003b]">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16 animate-fade-in-up">
-                    <h2 className="text-3xl md:text-4xl font-black text-white">Boas-vindas ao Hackathon da Mentoria</h2>
+                    <h2 className="text-3xl md:text-4xl font-black text-white">Boas-vindas ao programa de mentoria</h2>
                     <p className="text-lg text-gray-400 mt-4 max-w-3xl mx-auto">
-                        Assista ao vídeo abaixo para uma rápida introdução ao nosso programa transformador.
-                    </p>
+                        Assista ao vídeo abaixo para entender um pouco sobre a importância do programa e o que você pode esperar dessa jornada de desenvolvimento. 
                 </div>
                 <div className="aspect-video max-w-4xl mx-auto rounded-2xl shadow-2xl overflow-hidden bg-black border-4 border-blue-900/50 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
                    <a href={videoUrl} target="_blank" rel="noopener noreferrer" aria-label="Assistir vídeo de boas-vindas no YouTube" className="w-full h-full relative group cursor-pointer block">

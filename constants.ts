@@ -1,14 +1,14 @@
 export const impactNumbers = [
   {
-    value: "500+",
+    value: "700+",
     label: "Mentorados Impactados",
   },
   {
-    value: "150+",
+    value: "200+",
     label: "Mentores Voluntários",
   },
   {
-    value: "95%",
+    value: "97%",
     label: "Satisfação dos Participantes",
   },
   {
@@ -44,15 +44,13 @@ export const testimonials = [
 
 export const impactReports = [
     {
-        title: "Relatório de Impacto - Turma 2023",
-        description: "Confira os principais resultados, aprendizados e as histórias de sucesso da turma de 2023.",
+        title: "Relatório de Impacto - Hakathon da Mentoria 2025",
+        description: "Confira os principais resultados, aprendizados e as histórias de sucesso da turma de 2025.",
+        pdf: "hackathon-da-mentoria1/public/relatóriotalentos.pdf"
     },
     {
-        title: "Relatório de Impacto - Turma 2022",
-        description: "Veja como o programa evoluiu e os marcos alcançados pela turma de 2022.",
+        title: "Relatório de Impacto - Talentos feminnios 2025",
+        description: "Veja como o programa evoluiu e os marcos alcançados pela turma de 2025.",
+        pdf: "/hackathon-da-mentoria1/public/relatóriohackahton.pdf"
     },
-    {
-        title: "Relatório de Impacto - Turma 2021",
-        description: "O início da nossa jornada. Descubra os resultados da primeira turma do Hackathon da Mentoria.",
-    }
 ];
