@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "/assets/kpmgwhite.png";
+import kpmgwhite from "/assets/kpmgwhite.png";
 
 interface FooterProps {
     onAccessTrailClick: () => void;
@@ -20,7 +20,7 @@ const Footer: React.FC<FooterProps> = ({ onAccessTrailClick }) => {
                 </div>
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
                     <div className="flex items-center mb-6 md:mb-0">
-                        <img src={logo} alt="KPMG Logo" className="h-8 w-auto mr-3" />
+                        <img src={kpmgWhite} alt="KPMG" />
                     </div>
                     <p className="text-white text-sm">
                         &copy; {new Date().getFullYear()} KPMG & Instituto Joule. Todos os direitos reservados.

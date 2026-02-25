@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from "/assets/kpmg-logo.png";
+import logo from "/assets/kpmg-logo.png"; 
 
 interface HeaderProps {
     onAccessTrailClick: () => void;
