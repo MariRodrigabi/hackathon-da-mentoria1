@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "/assets/logobranca.png";
+import logo from "/assets/kpmgwhite.png";
 
 interface FooterProps {
     onAccessTrailClick: () => void;
