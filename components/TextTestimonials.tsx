@@ -13,18 +13,20 @@ const TextTestimonials: React.FC = () => {
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {testimonials.map((testimonial, index) => (
-                        <div key={index} className="bg-[#1a0d4a] p-8 rounded-2xl shadow-lg flex flex-col border border-blue-900/50 animate-fade-in-up" style={{ animationDelay: `${index * 0.2 + 0.2}s` }}>
+                        <div key={index} className="bg-[#1a0d4a] p-8 rounded-2xl border border-blue-900/50 flex flex-col h-full" 
+                                style={{ animationDelay: `${index * 0.2 + 0.2}s` }}>
                             <p className="text-gray-300 flex-grow relative">
                                 <span className="absolute -top-4 -left-4 text-7xl text-blue-600/30 font-serif">“</span>
                                 {testimonial.quote}
                             </p>
-                            <div className="mt-6 pt-6 border-t border-blue-900/50 flex items-center">
-                                <img className="h-14 w-14 rounded-full object-cover" src={testimonial.imageUrl} alt={testimonial.name} />
-                                <div className="ml-4">
-                                    <p className="font-bold text-white text-lg">{testimonial.name}</p>
-                                    <p className="text-blue-400 text-sm">{testimonial.role}</p>
+                                                        <div className="mt-8 text-center">
+                                <p className="font-semibold text-white text-lg">
+                                    {testimonial.name}
+                                </p>
+                                <p className="text-sm text-blue-300 mt-1">
+                                    {testimonial.role}
+                                </p>
                                 </div>
-                            </div>
                         </div>
                     ))}
                 </div>
