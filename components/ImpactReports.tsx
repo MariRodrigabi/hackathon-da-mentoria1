@@ -18,7 +18,10 @@ const ImpactReports: React.FC = () => {
                                 <h3 className="text-xl font-bold text-white mb-3">{report.title}</h3>
                                 <p className="text-gray-400 mb-6">{report.description}</p>
                             </div>
-                            <a href="#" className="inline-block bg-blue-600/20 hover:bg-blue-600/40 text-blue-300 hover:text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors duration-300">
+                            <a href={report.pdf}
+                            target="_blank"
+                            rel="noopener noreferrer" 
+                            className="inline-block bg-blue-600/20 hover:bg-blue-600/40 text-blue-300 hover:text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors duration-300">
                                 Veja o relatório completo
                             </a>
                         </div>

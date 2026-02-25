@@ -44,13 +44,13 @@ export const testimonials = [
 
 export const impactReports = [
     {
-        title: "Relatório de Impacto - Hakathon da Mentoria 2025",
+        title: "Relatório de Impacto - Talentos Feminnios 2025",
         description: "Confira os principais resultados, aprendizados e as histórias de sucesso da turma de 2025.",
-        pdf: "hackathon-da-mentoria1/public/relatóriotalentos.pdf"
+        pdf: "/relatóriotalentos.pdf"
     },
     {
-        title: "Relatório de Impacto - Talentos feminnios 2025",
+        title: "Relatório de Impacto - Hakathon da Mentoria 2025",
         description: "Veja como o programa evoluiu e os marcos alcançados pela turma de 2025.",
-        pdf: "/hackathon-da-mentoria1/public/relatóriohackahton.pdf"
+        pdf: "/relatóriohackathon.pdf"
     },
 ];
