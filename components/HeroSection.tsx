@@ -17,7 +17,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onAccessTrailClick }) => {
                     <span className="text-blue-400">Desvende seu Potencial</span> e Transforme sua Carreira
                     </h1>
                     <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto lg:mx-0 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-                        Programa de Mentoria 100% online e gratuito, promovido por KPMG Brasil e Instituto Joule, para acelerar seu desenvolvimento pessoal e profissional através de orientação estratégica de líderes.
+                        Programa de Mentoria 100% online e gratuito, promovido pela KPMG Brasil e Instituto Joule, para acelerar seu desenvolvimento pessoal e profissional através de orientação estratégica das lideranças.
                     </p>
                     <div className="flex justify-center lg:justify-start animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
                          <button onClick={onAccessTrailClick} className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-transform duration-300 ease-in-out hover:scale-105 shadow-lg shadow-blue-500/30">

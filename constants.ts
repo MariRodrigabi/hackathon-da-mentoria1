@@ -12,7 +12,7 @@ export const impactNumbers = [
     label: "Satisfação dos Participantes",
   },
   {
-    value: "8+",
+    value: "8",
     label: "Turmas Realizadas",
   },
 ];
