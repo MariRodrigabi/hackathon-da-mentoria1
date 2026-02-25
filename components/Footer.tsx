@@ -1,5 +1,5 @@
-import React from 'react';
-import kpmgwhite from "/assets/kpmgwhite.png";
+import React, { useState } from 'react';
+import kpmgWhite from "/assets/kpmgwhite.png";
 
 interface FooterProps {
     onAccessTrailClick: () => void;
