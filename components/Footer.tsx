@@ -20,7 +20,7 @@ const Footer: React.FC<FooterProps> = ({ onAccessTrailClick }) => {
                 </div>
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
                     <div className="flex items-center mb-6 md:mb-0">
-                        <img src={kpmgWhite} alt="KPMG" className="h-10 w-auto opacity-90" />
+                        <img src={kpmgWhite} alt="KPMG" className="h-7 w-auto opacity-90" />
                     </div>
                     <p className="text-white text-sm">
                         &copy; {new Date().getFullYear()} KPMG & Instituto Joule. Todos os direitos reservados.
