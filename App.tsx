@@ -6,7 +6,6 @@ import AboutProgram from './components/AboutProgram';
 import ImpactNumbers from './components/ImpactNumbers';
 import TrailTopics from './components/TrailTopics';
 import ContentTrack from './components/ContentTrack';
-import VideoTestimonials from './components/VideoTestimonials';
 import TextTestimonials from './components/TextTestimonials';
 import ImpactReports from './components/ImpactReports';
 import Footer from './components/Footer';
@@ -28,7 +27,6 @@ const App: React.FC = () => {
         <ImpactNumbers />
         <TrailTopics />
         <ContentTrack onAccessTrailClick={handleOpenModal} />
-        <VideoTestimonials />
         <TextTestimonials />
         <ImpactReports />
       </main>
