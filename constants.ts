@@ -29,7 +29,7 @@ export const testimonials = [
     role: "Mentor Hakathon da Mentoria V",
   },
   {
-    quote: "Nesse período da mentoria, eu fiz duas entrevistas de emprego e passei nas duas. Sem dúvidas sou grata por esse programa."
+    quote: "Nesse período da mentoria, eu fiz duas entrevistas de emprego e passei nas duas. Sem dúvidas sou grata por esse programa.",
     name: "Sarah Farah Oliveira",
     role: "Mentorada Talentos Femininos III",
   },
