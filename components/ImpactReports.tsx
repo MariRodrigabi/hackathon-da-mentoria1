@@ -11,7 +11,7 @@ const ImpactReports: React.FC = () => {
                         Explore os dados e resultados que comprovam a transformação gerada pelo nosso programa.
                     </p>
                 </div>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid md:grid-cols-2 gap-8 justify-center max-w-5xl mx-auto">
                     {impactReports.map((report, index) => (
                         <div key={index} className="bg-[#1a0d4a] p-8 rounded-2xl shadow-lg flex flex-col justify-between border border-blue-900/50 transform hover:-translate-y-2 transition-transform duration-300 animate-fade-in-up" style={{ animationDelay: `${index * 0.2 + 0.2}s` }}>
                             <div>
