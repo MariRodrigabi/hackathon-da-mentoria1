@@ -7,7 +7,7 @@ const topics = [
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
             </svg>
         ),
-        title: "Hard & Soft Skills",
+        title: "Habilidades",
         description: "Desenvolvimento de competências técnicas e comportamentais essenciais para o mercado de trabalho atual.",
     },
     {
@@ -16,8 +16,8 @@ const topics = [
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 012-2h4a2 2 0 012 2v1m-4 0h4" />
             </svg>
         ),
-        title: "Marca Profissional & Networking",
-        description: "Aprenda a construir e fortalecer sua marca no CV e LinkedIn, e a criar conexões estratégicas.",
+        title: "Networking",
+        description: "Construção e fortalecimento da sua marca no CV e LinkedIn e conexões estratégicas.",
     },
     {
         icon: (
@@ -25,7 +25,7 @@ const topics = [
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l5.447 2.724A1 1 0 0021 16.382V5.618a1 1 0 00-1.447-.894L15 7m-6 13v- உண்மையில்" />
             </svg>
         ),
-        title: "Plano de Carreira",
+        title: "Carreira",
         description: "Defina seus objetivos, identifique oportunidades e trace um plano claro para o seu crescimento profissional.",
     },
 ];
@@ -35,7 +35,7 @@ const TrailTopics: React.FC = () => {
         <section id="trail-topics" className="py-16 md:py-24 bg-[#130343]">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16 animate-fade-in-up">
-                    <h2 className="text-3xl md:text-4xl font-black text-white">Uma Jornada de Aprendizagem Estruturada</h2>
+                    <h2 className="text-3xl md:text-4xl font-black text-white">Uma jornada de aprendizagem estruturada</h2>
                     <p className="text-lg text-gray-400 mt-4 max-w-3xl mx-auto">
                         Nossa trilha foi desenhada para cobrir os pilares fundamentais do seu desenvolvimento profissional.
                     </p>

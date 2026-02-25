@@ -15,7 +15,7 @@ const AboutProgram: React.FC = () => {
         <section id="about" className="py-16 md:py-24 bg-[#130343]">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16 animate-fade-in-up">
-                    <h2 className="text-3xl md:text-4xl font-black text-white">O que Você vai Encontrar</h2>
+                    <h2 className="text-3xl md:text-4xl font-black text-white">O que você vai Encontrar</h2>
                     <p className="text-lg text-gray-400 mt-4 max-w-3xl mx-auto">
                         Uma jornada completa de desenvolvimento para conectar você aos seus objetivos, com o apoio de grandes líderes.
                     </p>

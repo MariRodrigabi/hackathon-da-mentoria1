@@ -19,25 +19,19 @@ export const impactNumbers = [
 
 export const testimonials = [
   {
-    quote: "O programa foi um divisor de águas na minha carreira. A mentoria me deu clareza e confiança para buscar novos desafios.",
-    name: "Juliana Silva",
-    role: "Mentorada, Turma 2023",
-    company: "Desenvolvedora de Software",
-    imageUrl: "https://picsum.photos/seed/person1/100/100",
+    quote: "Consegui ter mais clareza e organização sobre como devo me posicionar e planejar a minha carreira. Foi com certeza uma experiência muito gratificante.",
+    name: "Letícia Souza",
+    role: "Mentorada Talentos Femininos II",
   },
   {
-    quote: "Compartilhar minha experiência e ver o crescimento dos mentorados é incrivelmente gratificante. Uma iniciativa transformadora.",
-    name: "Ricardo Mendes",
-    role: "Mentor, KPMG Brasil",
-    company: "Gerente de Consultoria",
-    imageUrl: "https://picsum.photos/seed/person2/100/100",
+    quote: "Fui surpreendido por uma solução inovadora trazida pelo mentorado: um site que organiza cronogramas de estudo e oferece aulas online gratuitas para preparação das certificações.",
+    name: "Edeen Tuãn dos Santos Ferreira",
+    role: "Mentor Hakathon da Mentoria V",
   },
   {
-    quote: "A trilha de conteúdos é fantástica! Material rico e workshops práticos que realmente fazem a diferença no dia a dia.",
-    name: "Ana Costa",
-    role: "Mentorada, Turma 2022",
-    company: "Analista de Dados",
-    imageUrl: "https://picsum.photos/seed/person3/100/100",
+    quote: "Nesse período da mentoria, eu fiz duas entrevistas de emprego e passei nas duas. Sem dúvidas sou grata por esse programa."
+    name: "Sarah Farah Oliveira",
+    role: "Mentorada Talentos Femininos III",
   },
 ];
 
